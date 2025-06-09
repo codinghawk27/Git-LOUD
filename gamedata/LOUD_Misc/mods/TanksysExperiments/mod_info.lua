@@ -1,6 +1,6 @@
 name = "Tanksy's Experiments: Combat Reelism"
 uid = "TANKSYS-EXPERIMENTS-1-COMBAT"
-version = "1.2"
+version = "1.3"
 copyright = "None"
 description = "A different combat experience: Up to 3x longer ranged weapons, adjusted ballistics, faster missiles, emphasised scouting and high-arc artillery."
 author = "Tanksy"

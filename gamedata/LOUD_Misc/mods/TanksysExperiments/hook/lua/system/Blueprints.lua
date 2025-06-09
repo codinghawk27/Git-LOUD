@@ -145,7 +145,7 @@ do
 					-- A Lifetime of 0 (on the weapon) reverts the projectile to using the lifetime specified in the Projectile blueprint.
 					if weapon.ProjectileLifetime and weapon.ProjectileLifetime ~= 0 then
 
-						local newValue = math.floor(weapon.ProjectileLifetime * 3)
+						local newValue = math.floor(weapon.ProjectileLifetime * 3 * 2)
 						weapon.ProjectileLifetime = newValue
 
 						-- If the ProjectileLifetime isn't high enough to cover MaxRadius/MuzzleVelocity, then we set ProjectileLifetimeUsesMultiplier.
